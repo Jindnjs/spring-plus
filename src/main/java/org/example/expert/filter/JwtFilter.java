@@ -1,4 +1,4 @@
-package org.example.expert.config;
+package org.example.expert.filter;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
@@ -11,6 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.example.expert.domain.user.enums.UserRole;
+import org.example.expert.utils.JwtUtil;
 
 import java.io.IOException;
 
